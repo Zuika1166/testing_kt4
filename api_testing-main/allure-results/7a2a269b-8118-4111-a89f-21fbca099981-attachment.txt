@@ -1,0 +1,21 @@
+'POST example'
+'https://petstore.swagger.io/v2/user/'
+200
+'OK'
+'{"code":200,"type":"unknown","message":"3001"}'
+{'code': 200, 'message': '3001', 'type': 'unknown'}
+'**********'
+'GET example'
+'https://petstore.swagger.io/v2/user/pytest_user'
+200
+'OK'
+'{"id":3001,"username":"pytest_user","firstName":"Ivan","lastName":"Ivanov","email":"ivan@test.com","password":"12345","phone":"12345","userStatus":0}'
+{'email': 'ivan@test.com',
+ 'firstName': 'Ivan',
+ 'id': 3001,
+ 'lastName': 'Ivanov',
+ 'password': '12345',
+ 'phone': '12345',
+ 'userStatus': 0,
+ 'username': 'pytest_user'}
+'**********'
